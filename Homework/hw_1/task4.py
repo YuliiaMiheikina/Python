@@ -4,10 +4,10 @@ q = int(input("Введите номер четверти: "))
 if q < 1 or q > 4:
     print("нет такой четверти")
 if q == 1:
-        print("x > 0, y > 0 ")
+    print("x > 0, y > 0 ")
 elif q == 2:
-        print("x < 0, y > 0 ")
+    print("x < 0, y > 0 ")
 elif q == 3:
-        print("x < 0, y < 0 ")
+    print("x < 0, y < 0 ")
 elif q == 4:
-        print("x > 0, y < 0 ")
+    print("x > 0, y < 0 ")
