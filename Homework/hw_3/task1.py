@@ -10,7 +10,7 @@ for i in range(n):
 print(nums)
 
 for i in range(1, len(nums)+1, 2) :
-      summ += nums[i - 1]
+    summ += nums[i - 1]
 print(summ)
 
     
