@@ -3,10 +3,12 @@
 
 num = int(input("Введите натуральное число: "))
 muls = []
+
 if num > 0:
-    for i in range(1, num + 1):
-        if num % i == 0:
+    for i in range(2, num):
+        while num% i == 0:
             muls.append(i)
+            num//=i
     print(muls)
 else:
     print("Введите число больше нуля!")
