@@ -3,7 +3,7 @@ from calc_rational import *
 from calc_complex import calc_c
 
 
-bot = telebot.TeleBot('5719343094:AAGbG_fJk0m1ovn0ev-23buFf16-Y33d_7M')
+bot = telebot.TeleBot('')
 
 @bot.message_handler(commands=['start'])
 def start(message):
